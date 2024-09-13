@@ -1,3 +1,0 @@
-While learning new things about different programming languages or frameworks, I tend to take screenshots. So I can easily
-revise later. This is a must for me. But it gets tedious to do all of these things. So in this project, I am aiming to create a folder
-for the specific topic that I am studying, and when I take a screenshot program will move the screenshot to that folder.

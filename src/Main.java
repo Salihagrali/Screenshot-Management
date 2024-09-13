@@ -22,15 +22,14 @@ public class Main {
                         ,inputUrl+"\\"+nameOfTheFolder
                         ,nameOfTheFolder);
 
-        new Thread(() -> {
-            while(true){
-                screenshotMover.moveScreenshots();
-                try {
-                    Thread.sleep(2000);
-                } catch (InterruptedException e) {
-                    throw new RuntimeException(e);
-                }
+        while(true){
+            screenshotMover.moveScreenshots();
+            try {
+                Thread.sleep(2000);
+                System.out.println(Thread.currentThread().isInterrupted());
+            } catch (InterruptedException e) {
+                e.printStackTrace();
             }
-        }).start();
+        }
     }
 }
