@@ -1,3 +1,4 @@
+Not FINISHED !!
 This program only works with ide for the time being. When I try to execute from cmd, I get 
 ```
 Exception in thread "main" java.lang.NoClassDefFoundError: org/apache/commons/io/FileUtils
